@@ -3,7 +3,6 @@ import pandas as pd
 
 melbourne_houses = pd.read_csv('./melb_data.csv')
 col = melbourne_houses.iloc[0:10,1:4].rename(columns={'Address' : 'Location'})
-print(col)
 
 
 melbourne_houses = pd.read_csv('./melb_data.csv')
